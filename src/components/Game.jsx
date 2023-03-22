@@ -11,15 +11,17 @@ const Game = () => {
   const handleClick = (index) => {
     const boardCopy = [...board]
     //определить біл ли клик по ячейке
-
+    if (winner || boardCopy[index]) return
     //определить чей ход
-
+    boardCopy[index] = xIsNext ? 'X' : '0'
     //обновить стейт
+    setBoard(boardCopy)
+    setXIsNext(!xIsNext)
   }
 
   return (
     <div className='wrapper'>
-      <Board squares={ board} />
+      <Board squares={ board} click={handleClick} />
     </div>
   )
 }
