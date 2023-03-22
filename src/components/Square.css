@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 .square:hover{
     background: rgb(188, 186, 186);
