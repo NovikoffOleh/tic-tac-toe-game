@@ -32,7 +32,10 @@ const Game = () => {
     <div className='wrapper'>
       <h1 className='transt'>Старовинна гра "Хрестики-Нолики"</h1>
       {startNewGame()}
-      <Board squares={ board} click={handleClick} />
+      <Board squares={board} click={handleClick} />
+      <p className='game__info'>
+        {winner ? 'Переможець'+ winner : 'Тепер хід -' + (xIsNext ? 'X' : '0')}
+      </p>
     </div>
   )
 }
