@@ -10,5 +10,18 @@
     background-repeat: space;
 
 }
+.start__btn{
+    width: 200px;
+    height: 35px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    color: rgb(14, 14, 15);
+    outline:none ;
+    background:#dbd9d9;
+    border: 1px solid white;
+}
+.start__btn:hover{
+    
+}
 
 

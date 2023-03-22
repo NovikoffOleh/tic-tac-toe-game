@@ -19,8 +19,18 @@ const Game = () => {
     setXIsNext(!xIsNext)
   }
 
+  const startNewGame = () => {
+    return (
+      <button className='start__btn' onClick={(
+      ) => setBoard (Array(9).fill(null))}>
+        Почни з початку
+      </button>
+    )
+  }
+
   return (
     <div className='wrapper'>
+      {startNewGame()}
       <Board squares={ board} click={handleClick} />
     </div>
   )
