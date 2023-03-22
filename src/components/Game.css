@@ -6,21 +6,23 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(./game_tik.jpeg);
-    background-color: rgb(255, 255, 255, .6);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.6), rgba(47, 48, 58, 0.6)),url(./game_tik.jpeg);
+    
     
 
 }
 .transt{
-    width: 500px;
+    width: 400px;
     color: rgb(14, 14, 14);
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
     text-align: center;
-    background-color: rgb(255, 255, 255, .6);
-    font-size: 40px;
+    background-color: rgb(255, 255, 255, .5);
+    font-size: 34px;
+    border: 1px solid rgb(87, 86, 86);
+    border-radius: 10px;
 }
 .start__btn{
     width: 200px;
@@ -33,15 +35,21 @@
     border: 1px solid white;
 }
 .start__btn:hover{
-    background: #9a9898;
+    background: #888787;
     color: white;
     transition: .3s all ease;
 }
 .game__info{
+    width: 250px;
     margin-top: 25px;
-    font-size: 40px;
+    font-size: 25px;
+    justify-content: center;
+        align-items: center;
+        text-align: center;
     color: rgb(29, 28, 28);
-    background-color: rgb(255, 255, 255, .6);
+    background-color: rgb(255, 255, 255, .5);
+    border: 1px solid rgb(87, 86, 86);
+    border-radius: 10px;
 }
 
 
