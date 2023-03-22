@@ -7,8 +7,19 @@
     align-items: center;
     flex-direction: column;
     background-image: url(./game_tik.jpeg);
-    background-repeat: space;
+    
 
+}
+.transt{
+    width: 500px;
+    color: rgb(14, 14, 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: rgb(255, 255, 255, .6);
+    font-size: 40px;
 }
 .start__btn{
     width: 200px;
@@ -21,7 +32,9 @@
     border: 1px solid white;
 }
 .start__btn:hover{
-    
+    background: #9a9898;
+    color: white;
+    transition: .3s all ease;
 }
 
 

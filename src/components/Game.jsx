@@ -18,7 +18,7 @@ const Game = () => {
     setBoard(boardCopy)
     setXIsNext(!xIsNext)
   }
-
+<h1>Hello</h1>
   const startNewGame = () => {
     return (
       <button className='start__btn' onClick={(
@@ -30,6 +30,7 @@ const Game = () => {
 
   return (
     <div className='wrapper'>
+      <h1 className='transt'>Старовинна гра "Хрестики-Нолики"</h1>
       {startNewGame()}
       <Board squares={ board} click={handleClick} />
     </div>
