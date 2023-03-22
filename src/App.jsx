@@ -1,9 +1,11 @@
+import Game from 'components/Game'
 import React from 'react'
-
 import './App.css'
+
+
 function App() {
   return (
-   <h1>Hello Kitty</h1>
+   <Game/>
   );
 };
 export default App;
